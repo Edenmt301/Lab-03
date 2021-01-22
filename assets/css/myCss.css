@@ -1,0 +1,73 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+@media screen and (max-width: 767px) {
+    .navig-col>ul>li>a {
+      text-align: end;
+      margin-right: 0.5rem;
+    }
+  }
+.copy_right{
+    color: rgba(150, 100, 100, 0.5);
+    font-size: 1rem;
+}
+footer{
+    color: rgb(150, 150, 150);
+    width:100%;
+    font-size: 1rem;
+    margin-top: 200px;
+
+}
+.fo-links{
+    list-style-type: circle;
+}
+
+.slide{
+    height:40%;
+    width:70%;
+}
+.main-buy{
+    margin-top: 4rem;
+}
+.sub-buy{
+    padding: 1rem 0;
+    text-transform: uppercase;
+    letter-spacing: .001rem;
+}
+.center{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+.default{
+    display: none;
+}
+.fa{
+    padding: 0 .4rem;
+}
+.abt-row{
+    padding: 2rem 1rem;
+}
+.container{
+    margin-top: 1rem;
+}
+.abt-titles{
+    text-align: center;
+}
+.circle-container{
+    display: flex;
+    margin: auto;
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(76, 143, 143);
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    text-align: center;
+    
+}
+.card-img-top{
+    border-radius: 50%;
+}
